@@ -1,0 +1,85 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@CatiaBarros 
+CatiaBarros
+/
+PPJ-Economia
+Public
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+Settings
+PPJ-Economia/TangleKit/TangleKit.css
+@CatiaBarros
+CatiaBarros Add files via upload
+Latest commit de35f61 on 15 Jun 2020
+ History
+ 1 contributor
+55 lines (42 sloc)  755 Bytes
+   
+/*
+ *  TangleKit.css
+ *  Tangle 0.1.0
+ *
+ *  Created by Bret Victor on 6/10/11.
+ *  (c) 2011 Bret Victor.  MIT open-source license.
+ *
+ */
+
+
+/* cursor */
+
+.TKCursorDragHorizontal {
+	cursor: pointer;
+	cursor: move;
+	cursor: col-resize;
+}
+
+
+/* TKToggle */
+
+.TKToggle {
+	color: #4ACC82;
+	border-bottom: 1px dashed #4ACC82;
+	cursor: pointer;
+}
+
+
+/* TKAdjustableNumber */
+
+.TKAdjustableNumber {
+	position:relative;
+	color: #4ACC82;
+	border-bottom: 1px dashed #4ACC82;
+}
+
+.TKAdjustableNumberHover {
+}
+
+.TKAdjustableNumberDown {
+	color: #4ACC82;
+	border-bottom: 1px dashed #4ACC82;
+}
+
+.TKAdjustableNumberHelp {
+	position:absolute;
+	color: black;
+	font: 9px "Lato", "Arial", sans-serif;
+}
+
+.resultado {
+	color: white;
+	background-color: #BA3B46;
+	padding: 4px;
+}
+
